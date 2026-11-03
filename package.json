@@ -7,7 +7,7 @@
   "author": "MDX-Tom",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MDX-Tom/magpie-antigravity-effort"
+    "url": "git+https://github.com/MDX-Tom/magpie-antigravity-effort.git"
   },
   "files": [
     "gate.middleware.js",
