@@ -1,0 +1,40 @@
+{
+  "name": "magpie-antigravity-effort",
+  "version": "1.0.0",
+  "description": "Magpie gateway middleware to adjust reasoning effort and thinking level for Antigravity & Gemini models with GUI options (fixes issue #4838)",
+  "type": "module",
+  "main": "./gate.middleware.js",
+  "files": [
+    "gate.middleware.js",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "magpie",
+    "magpie-plugin",
+    "antigravity",
+    "gemini",
+    "reasoning-effort",
+    "thinking-level",
+    "gateway-middleware"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test gate.middleware.test.mjs"
+  },
+  "magpie": {
+    "name": "Antigravity Effort Gating",
+    "middleware": "./gate.middleware.js",
+    "icon": "./icon.svg",
+    "options": {
+      "enabled": true,
+      "effort": "high",
+      "applyTo": [
+        "gemini",
+        "flash",
+        "antigravity"
+      ]
+    }
+  }
+}
