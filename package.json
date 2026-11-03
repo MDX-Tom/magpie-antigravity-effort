@@ -4,6 +4,11 @@
   "description": "Magpie gateway middleware to adjust reasoning effort and thinking level for Antigravity & Gemini models with GUI options (fixes issue #4838)",
   "type": "module",
   "main": "./gate.middleware.js",
+  "author": "MDX-Tom",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MDX-Tom/magpie-antigravity-effort"
+  },
   "files": [
     "gate.middleware.js",
     "icon.svg",

@@ -45,13 +45,13 @@
 ### Method 2: Magpie CLI
 
 ```bash
-magpie plugin add github:midaxia/magpie-antigravity-effort
+magpie plugin add github:MDX-Tom/magpie-antigravity-effort
 ```
 
 ### Method 3: Local Development Folder
 
 ```bash
-git clone https://github.com/midaxia/magpie-antigravity-effort.git
+git clone https://github.com/MDX-Tom/magpie-antigravity-effort.git
 magpie plugin add ./magpie-antigravity-effort
 ```
 
